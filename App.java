@@ -4,7 +4,7 @@ public class App
 {
     public static void main(String[] args) throws Exception
     {
-        Database.connect();
+        Database database = Database.connect();
         System.out.println("ok");
     }
 }
